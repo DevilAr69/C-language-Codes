@@ -1,0 +1,442 @@
+
+//sum of any 3 digit number
+#include<stdio.h>
+int main()
+{
+    int num,d1,d2,d3,sum;
+  printf("enter any 3 digit number :");
+  scanf("%d",&num);
+  d1=num%10;
+  num=num/10;
+  d2=num%10;
+  num=num/10;
+  d3=num%10;
+  sum=d1+d2+d3;
+  printf("the sum is equal to")
+
+
+}
+
+
+//sum of any two numbers
+#include<stdio.h>
+
+int main(){
+  int a,b,sum;
+  printf("enter any two numbers :");
+  scanf("%d %d",&a,&b);
+  sum=a+b;
+  printf("sum = %d",sum);
+
+
+}
+
+//swapping two numbers
+#include<stdio.h>
+
+int main(){
+ int a=1,b=2,temp;
+ printf("\nbefore swapping A=%d and B=%d",a,b);
+ temp=a;
+ a=b;
+ b=temp;
+ printf("\nafter swapping A=%d and B=%d",a,b);
+ return 0;
+
+
+}
+//use of n and t for spacing amr and akhbar and anthony
+#include<stdio.h>
+
+int main(){
+ printf("AMar\n\tAkhbar\n\tAnthony");
+
+
+ }
+
+//celcius into farenhiet
+#include<stdio.h>
+
+int main(){
+ float F,C;
+ C=(F-32)/1.8;
+ printf("enter the value of farenheit :");
+ scanf("%f",&F);
+ printf("the value of celcius =%f",C);
+ 
+}
+
+//sum of any 3 digit number entered by the user
+#include<stdio.h>
+
+int main(){
+ int d1,d2,d3,num,sum;
+ printf("enter any 3 digit number");
+ scanf("%d",&num);
+ d1=num%10;
+ num=num/10;
+ 
+ d2=num%10;
+ num=num/10;
+ 
+ d3=num%10;
+ sum=d1+d2+d3;
+
+ printf("the sum of 3 digits is %d",sum);
+ 
+
+
+ 
+}
+
+//check wether entered numver is an even or odd 
+#include<stdio.h>
+
+int main(){
+ int num;
+ printf("enter any number :");
+ scanf("%d",&num);
+
+ if (num%2==0){
+  printf("\n%d is an even number",num);
+
+ } else{
+  printf("\n%d is an odd number",num);
+ }
+
+
+ 
+}
+
+//compare any which number is greater
+#include<stdio.h>
+
+int main(){
+ int a,b;
+ printf("enter any two numbers :");
+ scanf("%d %d",&a,&b);
+
+ if(a>b){
+    printf("a is greater than b");
+ } else{
+    printf("b is greater than a");
+ }
+
+
+
+ 
+}
+
+//compare two numbers which is greater
+#include<stdio.h>
+
+int main(){
+ int a,b;
+ printf("enter any two numbers :");
+ scanf("%d %d",&a,&b);
+
+ if(a>b){
+    printf("a is greater than b");
+ } else if (b==a)
+ {
+    printf("b is equal to a");
+ }else
+ {
+    printf("b is greater than a");
+ }
+
+
+
+ 
+}
+
+//compare 3 number which is greater
+#include<stdio.h>
+
+int main(){
+ int a,b,c;
+ printf("enter any 3 numbers :");
+ scanf("%d%d%d",&a,&b,&c);
+
+ if (a>b){
+    if (a>c)
+    {
+        printf("\na is greater");
+
+    } else{
+        printf("\nc is greater");
+    }
+    
+ }
+ else{
+    if (b>c)
+    {
+        printf("b is greater");
+    }else{
+        printf("c is greater");
+    }
+    
+ }
+
+
+
+ 
+}
+
+//compare 3 number which is smalller
+#include<stdio.h>
+
+
+int main(){
+ int a,b,c;
+ printf("enter any 3 numbers :");
+ scanf("%d%d%d",&a,&b,&c);
+
+ if (a>b){
+    if (a>c)-
+    {
+        printf("\nc is smaller");
+
+    } else{
+        printf("\na is smaller");
+    }
+    
+ }
+ else{
+    if (b>c)
+    {
+        printf("c is smaller");
+    }else
+        printf("a is smaller");
+    }
+    
+ }
+
+//find the greatest digit from the given 3 digit number
+#include<stdio.h>
+
+
+int main(){
+ int d1,d2,d3,num;
+ printf("enter any 3 digit number :");
+ scanf("%d",&num);
+
+ d1=num%10;
+ num-=num/10;
+
+ d2=num%10;
+ num-=num/10;
+
+ d3=num%10;
+ 
+
+ if (d1>d2){
+    if (d1>d3)
+    {
+        printf("\nd1 is greater");
+
+    } else{
+        printf("\nd3 is greater");
+    }
+    
+ }
+ else{
+    if (d2>d3)
+    {
+        printf("d2 is greater");
+    }else
+        printf("d3 is greater");
+    }
+    
+ }
+
+//check whether entered number is +ve or -ve or 0
+
+#include<stdio.h>
+
+int main(){
+    int num;
+    printf("enter any integer :");
+    scanf("%d",&num);
+
+    if (num>0)
+    {
+        printf("%d is an positive number",num);
+    }
+    else if (num==0)
+    {
+        printf("%d is 0",num);
+
+    }else{
+        printf("%d is an negative number",num);
+    }
+    
+
+
+}
+
+
+//check whether the student is pass or fail by marks of 5 subjects
+#include<stdio.h>
+
+int main(){
+    int a,b,c,d,e,sum,perc;
+    printf("enter the mars of 5 subjects :");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+
+    if (m1>=40 && m2>=40 && m3>=40 && m4>==40 && m5>==40)
+    {   sum=m1+m2+m4+m5+m3;
+    perc=sum/5;
+
+        printf("\n the total is %d",sum);
+        printf("\n the percentage is %d ",perc)
+    }
+    else{
+        printf("the student is fail to score marks")
+    }
+
+}
+
+//check whether the student is pass or fail by marks of 5 subjects
+#include<stdio.h>
+
+int main(){
+    int a,b,c,d,e,sum,perc;
+    printf("enter the mars of 5 subjects :");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+
+    if (a>=40 && b>=40 && c>=40 && d>=40 && e>=40)
+    {   
+        
+        printf("\n the total is %d",sum);
+        printf("\n the percentage is %d ",perc);
+        sum=a+b+c+d+e;
+        perc=sum/5;
+
+    }
+    else{
+        printf("the student is fail to score marks");
+    }
+
+}
+
+
+//write a c program to to accept the  value of x and y from the user and display on which particular quadrant
+
+#include<stdio.h>
+
+int main(){
+    int x,y;
+    printf("enter the value of x and y :");
+    scanf("%d%d",&x,&y);
+    if (x>0 && y>0)
+    {
+        printf("\n it lies on 1st quadrant");
+
+    }
+    else if (x<0 && y<0)
+    {
+        printf("it lies on 3rd quadrant");
+    }
+    else if (x>0 && y<0)
+    {
+        printf("it lies on 4th quadrant");
+    }
+    else if (x==0 && y==0)
+    {
+        printf("it lies on origin");
+    }
+    else if (x=0 && y!=0)
+    {
+        printf("it lies on y-axis");
+    }
+    else
+    {
+        printf("x-axis");
+    }
+    
+    
+
+
+
+}
+ 
+//find the smallest number among the five numbers
+
+#include<stdio.h>
+
+int main(){
+    int a,b,c,d,e,min;
+    printf("enter any five numbers :");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    min = a;
+    if (b<min)
+    {
+        min=b;
+    }
+    else if (c<min)
+    {
+        min=c;
+
+    }
+    else if (d<min)
+    {
+        min=d;
+    }
+    else {
+        min=e;
+    }
+
+    printf("min number =%d",min);
+
+}
+
+//find the largest number from the given 3 numbers
+#include<stdio.h>
+
+int main(){
+    int a,b,c;
+    printf("enter any 3 number :");
+    scanf("%d%d%d",&a,&b,&c);
+
+    if (a>b)
+    {
+        if (a>c)
+        {
+            printf("a is greater");
+        }
+        else{
+            printf("c is greater");
+        }
+        
+    }else{
+        if (b>c)
+        {
+            printf("b is greater");
+        }
+        else{
+            printf("c is greater");
+        }
+        
+    }
+    
+}
+
+
+
+
+//print the ASCII value equivalent to any character entered by the user
+#include<stdio.h>
+
+int main(){
+    char ch;
+    printf("\n enter any character :");
+    scanf("%c",&ch);
+    printf("\n character value = %c",ch);
+    printf("\n ASCII value = %d",ch);
+}
+
+ 
+
+
+
